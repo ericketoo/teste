@@ -1,0 +1,10 @@
+
+.card2 img{
+    width: 90vw;
+}
+.card2{
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    justify-content: center;
+}

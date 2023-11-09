@@ -59,9 +59,10 @@ img{
     font-family: 'Gotham-Light';
     text-align: justify;
     padding-bottom: 30px;
-
 }
-
+.txt-home{
+    padding-bottom: 35px;
+}
 .button-home{
     margin-top: 20px;
     border-radius: 20px;

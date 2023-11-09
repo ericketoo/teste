@@ -1,42 +1,42 @@
 @font-face {
     font-family: Gotham-Black;
-    src: url(../assets/font/Gotham-Black.otf);
+    src: url(../font/Gotham-Black.otf);
 }
 @font-face {
     font-family: Gotham-Bold;
-    src: url(../assets/font/Gotham-Bold.otf);
+    src: url(../font/Gotham-Bold.otf);
 }
 @font-face {
     font-family: GothamMedium;
-    src: url(../assets/font/GothamMedium.ttf);
+    src: url(../font/GothamMedium.ttf);
 }
 @font-face {
     font-family: Gotham-Light;
-    src: url(../assets/font/Gotham-Light.otf);
+    src: url(../font/Gotham-Light.otf);
 }
 
 *{
     margin: 0;
     padding: 0;
-    font-family: 'GothamMedium', sans-serif ;
     list-style: none;
     text-decoration: none;
     color: var(--white) !important;
 }
 :root{
-    --verde: #3a9842;
+    --verde: #0F6B38;
     --dark: #0D0D0D ;
     --white: #fff;
     --fundo: #292D32;
     --red: #EA2840;
 }
+
 p{
     margin-bottom: 0;
     font-size: 18px;
     font-family: 'GothamMedium';
  }
 h1{
-    font-family: 'Gotham-Bold';
+    font-family: 'Gotham-Bold' !important;
     font-size: 50px;
 }
 main{
@@ -84,4 +84,5 @@ main{
     display: flex;
     gap: 30px;
     flex-wrap: wrap;
+    padding-bottom: 80px;
 }

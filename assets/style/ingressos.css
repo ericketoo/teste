@@ -1,0 +1,19 @@
+
+.ingr img{
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    padding-bottom: 40px;
+}
+.ingr-txt{
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 30px;
+
+
+}
+.ingr-txt h1 {
+    font-size: 30px ;
+}

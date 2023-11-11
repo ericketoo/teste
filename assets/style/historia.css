@@ -29,7 +29,9 @@
     --fundo: #292D32;
     --red: #EA2840;
 }
-
+img{
+    width: 30vw;
+}
 p{
     margin-bottom: 0;
     font-size: 18px;
